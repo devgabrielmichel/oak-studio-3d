@@ -1,0 +1,62 @@
+.upload-form h2 {
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+}
+
+.upload-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.upload-form input,
+.upload-form textarea {
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.95rem;
+}
+
+.upload-form input:focus,
+.upload-form textarea:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.upload-form input:disabled,
+.upload-form textarea:disabled {
+  opacity: 0.5;
+}
+
+.alert {
+  margin: 0 0 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.alert-success {
+  background: rgba(61, 155, 110, 0.15);
+  color: #6dd4a0;
+  border: 1px solid var(--success);
+}
+
+.alert-error {
+  background: rgba(212, 93, 93, 0.12);
+  color: #f0a0a0;
+  border: 1px solid var(--error);
+}
+
+.form-hint {
+  margin: 0.75rem 0 0;
+  font-size: 0.8rem;
+  color: var(--muted);
+  text-align: center;
+}
